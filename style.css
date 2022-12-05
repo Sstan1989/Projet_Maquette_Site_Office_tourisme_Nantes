@@ -1,0 +1,125 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  font-size:16px;
+}
+/*TAG*/
+.container {
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*FOOTER*/
+
+footer{
+  width:100%;
+  background-image:url(./images/bg_footer.jpg);
+  background-size:cover;
+  /*Probleme de fond blanc html*/
+  padding-bottom:200px;
+}
+
+.tarte{
+  padding-top:4em;
+  display:flex;
+}
+
+/*GAUCHE*/
+.footer__section-left{
+  /*border:1px solid black;*/
+  min-height:37.5rem;
+  width:49%;
+}
+.footer__article-images{
+  display:flex;
+  flex-direction:column;
+}
+
+.logo__Nantes{
+  width:50%;
+  margin-bottom:2%;
+}
+.logo08{
+  width:60%;
+  margin-bottom:2%;
+}
+
+.article__image__bloc-tel{
+  width:55%;
+  padding-bottom:1.5em;
+}
+
+.article{
+  padding-bottom:1em;
+  line-height:22px;
+}
+
+.article__contact p:first-child{
+  text-decoration:underline;
+}
+
+div p{
+  font-size:1.37rem;
+}
+/*DROITE*/
+
+.footer__section-right{
+  display:flex;
+  flex-direction:column;
+  /*border:1px solid black;*/
+  width:50%;
+ 
+}
+/*LISTE*/
+.block__list{
+  /*border:1px solid red;*/
+  height:80%;
+  /*padding-bottom:4rem;*/
+ 
+  display:flex;
+}
+.block__list__left{
+  
+}
+.list{
+  list-style:none;
+}
+.list__left{
+  padding-left:3.2rem;
+}
+.list-item{
+ font-size:0.60rem;
+  /*font-size:0.75rem;*/
+}
+.list-item-bold{
+  font-weight:bold;
+}
+
+/*SOCIAL*/
+.footer__logo{
+  /*border:1px solid purple;*/
+  height:30%;
+}
+.footer__wrapper{
+  padding-left:3.2rem;
+}
+.fa-size{
+  /*font-size:5rem;*/
+  font-size:3.4rem;
+}
+.img_sccop{
+  /*width:4.1rem;*/
+  /*height:4.1rem;*/
+  width:3.4rem;
+  height:3.4rem;
+}
+
+.color{
+  color:black;
+  text-decoration:none;
+}
+.color:visited{
+  color:black;
+  text-decoration:none;
+}
